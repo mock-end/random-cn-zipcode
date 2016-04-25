@@ -8,7 +8,7 @@ module.exports = function () {
   var length = 6;
 
   while (length--) {
-    result += randomNatural(0, 9).toString();
+    result += randomNatural({ min: 0, max: 9, inspected: true }).toString();
   }
 
   return result;

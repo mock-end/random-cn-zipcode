@@ -20,7 +20,7 @@ $ npm install --save random-cn-zipcode
 var randomZip = require('random-cn-zipcode');
 
 randomZip();
-// => 310000
+// => '310000'
 ```
 
 ## Related
